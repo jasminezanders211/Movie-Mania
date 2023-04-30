@@ -1,12 +1,9 @@
 import React from 'react'
 
-export default function header() {
+
+export default function Header() {
   return (
-    <>
-    <header>
-        <h1>Movie Mania</h1>
-        <p>this will be a slogan</p>
-    </header>
-    </>
+    <div>header</div>
+
   )
 }
