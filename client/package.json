@@ -11,8 +11,12 @@
   },
   "dependencies": {
     "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-pages": "^0.6.53",
+    "react-router": "^6.11.1",
+    "react-router-dom": "^6.11.1",
     "sass": "^1.62.1"
   },
   "devDependencies": {
@@ -25,6 +29,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
     "typescript": "^5.0.2",
-    "vite": "^4.3.2"
+    "vite": "^4.3.2",
+    "vite-plugin-pages": "^0.29.0"
   }
 }
