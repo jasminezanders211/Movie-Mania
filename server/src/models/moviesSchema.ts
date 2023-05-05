@@ -12,4 +12,14 @@ let movieSchema = new mongoose.Schema({
 		required: true,
 		Validate: /^[A-Za-z]*$/,
 	},
+
+	score: {
+		type: Number,
+		required: false,
+	},
+	rating: {
+		type: String,
+		required: true,
+		Validate: /^[A-Za-z]*$/,
+	},
 })
