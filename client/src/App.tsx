@@ -31,6 +31,7 @@ function App() {
 	useEffect(() => {
 		fetchMovieData()
 	}, [fetchMovieData])
+
 	return (
 		<MovieContext.Provider value={movieList}>
 			<Header />
