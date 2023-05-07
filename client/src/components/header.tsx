@@ -1,9 +1,15 @@
 import React from 'react'
-
+import navigation from './navigation'
 
 export default function Header() {
+  navigation()
   return (
-    <div>header</div>
+    <header>header
+ 
+    <p>Movie Wheel</p>
+
+
+    </header>
 
   )
 }
