@@ -5,7 +5,7 @@ import cors from 'cors'
 import router from './routes/movies'
 
 const { default: movies } = require('./routes/movies')
-dotenv.config({}) //allows server to read DB key from a .env file
+dotenv.config() //allows server to read DB key from a .env file
 
 const PORT = process.env.PORT || 4040 // we use || to provide a default value
 const app = express()

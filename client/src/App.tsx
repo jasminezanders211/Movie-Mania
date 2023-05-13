@@ -6,6 +6,7 @@ import { api } from './includes/api'
 import { createContext, useCallback, useState } from 'react'
 import movieData from '../src/types/movieData'
 import { useEffect } from 'react'
+import '../styles/main.scss'
 
 export const MovieContext = createContext<movieData[]>([])
 
