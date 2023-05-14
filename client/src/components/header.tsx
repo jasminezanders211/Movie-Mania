@@ -4,9 +4,9 @@ import navigation from './navigation'
 export default function Header() {
   navigation()
   return (
-    <header>header
+    <header>
  
-    <p>Movie Wheel</p>
+    Movie Mania
 
 
     </header>
