@@ -1,14 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
+import movieData from '../types/movieData'
 
 export default function Home() {
-  return (
-    <div>home 
-<div id='welomeContainer'>
+	const dynamicAltAttribute = () => {
+		const movieAlt = document.getElementById('') //TODO add id for image
+		if (movieAlt != null) {
+			movieAlt.setAttribute('alt', `A movie poster for ....`)
+		}
+	}
 
-  <p>how are u</p>
-</div>
+	dynamicAltAttribute()
 
-
-    </div>
-  )
+	return (
+		<div>
+			<div id="welcomeContainer">
+				<p>how are u</p>
+			</div>
+		</div>
+	)
 }
