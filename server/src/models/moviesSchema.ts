@@ -40,6 +40,11 @@ let moviesSchema = new mongoose.Schema({
 		required: true,
 		Validate: /^[A-Za-z]*$/,
 	},
+
+	Poster_Link: {
+		type: String,
+		required: true,
+	},
 })
 
 //create var for our model that takes the arguments of a route and the schema above

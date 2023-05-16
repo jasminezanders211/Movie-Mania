@@ -20,6 +20,9 @@ export default function movies() {
 					<h3 id="movie-imdb">{movie.imdbScore}</h3>
 					<h3 id="movie-year">{movie.releaseYear}</h3>
 					<p id="movie-overview">{movie.overview}</p>
+					<h4 id="movie-runtime">{movie.runtime}</h4>
+
+					<img src={movie.Poster_Link} />
 				</div>
 			)
 		})
