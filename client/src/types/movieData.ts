@@ -1,7 +1,10 @@
 export default interface movieData {
-	name: string
+	title: string
 	genre: string
-	score?: number
-	rating: string
+	imdbScore?: number
 	releaseYear: number
+	overview: string
+	rating: string //ex: rated R or PG-13
+	director: string
+	runtime: string
 }

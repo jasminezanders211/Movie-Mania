@@ -1,15 +1,13 @@
-import About from './pages/about'
+import { Route, BrowserRouter as Router, useRoutes } from 'react-router-dom'
 import Header from './components/header'
 import Footer from './components/footer'
-import Home from '../src/pages/Home'
+import routes from '~react-pages'
 
 function App() {
 	return (
 		<>
 			<Header />
-			<Home />
-
-			<About />
+			{useRoutes(routes)}
 			<Footer />
 		</>
 	)
