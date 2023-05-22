@@ -1,0 +1,23 @@
+#welcomeContainer {
+   background-color: rgb(255, 0, 0); 
+
+} 
+
+#moviePosterContainer {
+   background-color: greenyellow;
+
+}
+
+#topRow {
+   background-color: aqua;
+   display:flex;
+   flex-direction: row;
+   margin: 10em;
+
+} 
+
+#bottomRow {
+   display:flex; 
+   flex-direction: row;
+   margin: 10em;
+}
