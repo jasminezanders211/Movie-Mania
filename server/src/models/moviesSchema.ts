@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 // basic schema for movie list
-let movieSchema = new mongoose.Schema({
+let moviesSchema = new mongoose.Schema({
 	title: {
 		type: String,
 		required: true,
@@ -40,4 +40,14 @@ let movieSchema = new mongoose.Schema({
 		required: true,
 		Validate: /^[A-Za-z]*$/,
 	},
+
+	Poster_Link: {
+		type: String,
+		required: true,
+	},
 })
+
+//create var for our model that takes the arguments of a route and the schema above
+const Movies = mongoose.model('movies', moviesSchema)
+//export the var
+export default Movies

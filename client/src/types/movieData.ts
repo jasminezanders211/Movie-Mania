@@ -7,4 +7,5 @@ export default interface movieData {
 	rating: string //ex: rated R or PG-13
 	director: string
 	runtime: string
+	Poster_Link: string
 }

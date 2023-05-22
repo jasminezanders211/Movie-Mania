@@ -1,3 +1,24 @@
+
+import React, { useState } from 'react'
+import movieData from '../types/movieData'
+
+export default function Home() {
+	const dynamicAltAttribute = () => {
+		const movieAlt = document.getElementById('') //TODO add id for image
+		if (movieAlt != null) {
+			movieAlt.setAttribute('alt', `A movie poster for ....`)
+		}
+	}
+
+	dynamicAltAttribute()
+
+	return (
+		<div>
+			<div id="welcomeContainer">
+				<p>how are u</p>
+			</div>
+		</div>
+	)
 import React from 'react'
 import ralph from "../../assets/ralph.jpg"
 import spiderman from "../../assets/spiderman.jpg"
@@ -27,7 +48,6 @@ export default function Home() {
       <img src={spiderman }/>
       <img src={ralph}/>
       <img src={treasureplanet }/>
-    </div>
 
   {/* Bottom of row of movies*/}
     <div id='bottomRow'className='row'>
