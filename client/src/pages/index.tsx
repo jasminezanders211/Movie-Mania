@@ -2,10 +2,11 @@ import React from 'react'
 import ralph from "../../assets/moviePosters/ralph.jpg"
 import spiderman from "../../assets/moviePosters/spiderman.jpg"
 import princessfrog from "../../assets/moviePosters/princessfrog.jpg"
-import treasureplanet from "../../assets/moviePosters/theinvisibleman2020.jpg"
+import treasureplanet from "../../assets/moviePosters/treasureplanet.jpg"
 import traintobusan from "../../assets/moviePosters/traintobusan.jpg"
 import silenthill from "../../assets/moviePosters/silenthill.jpg"
 import man from "../../assets/moviePosters/theinvisibleman2020.jpg"
+import malignant from "../../assets/moviePosters/malignant.jpg"
 export default function Home() {
   
   
@@ -30,7 +31,7 @@ export default function Home() {
     <div id='bottomRow'className='row'>
       <img src={traintobusan}/>
       <img src={malignant}/>
-      <img src={}/>
+      <img src={man}/>
       <img src={silenthill}/>
     </div>
   </div>
