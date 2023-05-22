@@ -3,13 +3,21 @@
 
 } 
 
-#containerTwo {
+#moviePosterContainer {
    background-color: greenyellow;
 
 }
 
-#toprow {
+#topRow {
    background-color: aqua;
-   display: inline-block;
+   display:flex;
+   flex-direction: row;
+   margin: 10em;
 
+} 
+
+#bottomRow {
+   display:flex; 
+   flex-direction: row;
+   margin: 10em;
 }

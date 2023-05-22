@@ -3,12 +3,17 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div>footer
+    <footer>
+      <h3>
+        Movie Mania
+      </h3>
 
-      <p>this is only a test</p> 
-      
+      <img/>
+      <img />
+      <img/>
 
-    </div>
+
+    </footer>
 
   )
 }

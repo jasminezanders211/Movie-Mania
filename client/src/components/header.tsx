@@ -5,10 +5,7 @@ export default function Header() {
   navigation()
   return (
     <header>
- 
-    Movie Mania
-
-
+      Movie Mania
     </header>
 
   )
